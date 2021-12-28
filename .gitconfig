@@ -1,0 +1,9 @@
+[user]
+	email = noizzpost@gmail.com
+	name = Gleb
+[alias]
+	history = log --graph
+	br = branch
+	co = checkout
+	lo = log --oneline --graph --decorate --all
+	
