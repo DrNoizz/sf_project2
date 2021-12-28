@@ -80,20 +80,8 @@ git push origin имя_вашей_ветки
 
 После окончания внесения изменений, для слияния с главной master веткой:
 
+На странице репозитория GitHub будет автоматически предложеноо выполнить Pull Request (Одноименная Зеленая кнопка),
+либо, самому зайти на вкладку Pull Request, выбрать New Pull, выбрать ветки: из какой в какую его выполнить,
+и два раза подтвердить свой выбор.
 
-
-git config --global user.name "Gleb"
-
-git config --global user.email noizzpost@gmail.com
-
-git config --global alias.history 'log --graph'
-
-git add .
-
-git commit -m "first commit - added config file"
-
-git branch dev_gleb
-
-git remote add origin https://github.com/DrNoizz/sf_project2.git
-
-git remote -v
+git pull  для синхронизации локального и удаленного репозитория.
